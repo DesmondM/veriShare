@@ -1,0 +1,22 @@
+{
+    "links": [],
+    "content": [
+        {
+            "names": "TEME",
+            "currency": "US DOLLAR",
+            "handover_Date": "2020-10-13T00:00:00.000+0000",
+            "balance_Amount": 10.03,
+            "surname": "GRAVE",
+            "account_No": "1854575862",
+            "client_Group": "GENERAL",
+            "symbol": "$",
+            "initials": "T",
+            "client_Category": "Locals",
+            "debt_No": "11238006951321",
+            "id_Number": "123456789",
+            "client_Name": "LETTER TEST",
+            "follow_Up_Code": "HR",
+            "follow_Up_Description": "HANDOVER RECEIVED"
+        }
+    ]
+}
