@@ -5,7 +5,7 @@ import './App.css';
 import {Miranda} from './Miranda';
 
 function App() {
-   const [users, setUsers] =useState(mirandaData.slice(0,2));
+   const [users, setUsers] =useState(mirandaData.slice(0,10));
    const [pageNumber, setPageNumber] = useState(0);
 
    const usersPerPage =2;
@@ -15,10 +15,13 @@ function App() {
       .map((user)=>{
         return(
           <div className = "user">
-         <h3>{user.miranda_Name}</h3>
-         <h3>{user.miranda_Script_No}</h3>
-         <h3>{user.true_Script}</h3>
-         <h3>{user.false_Script}</h3>
+         <h3> <input type="text" value ={user.miranda_Name}></input></h3>
+
+
+
+         <h3><input type="text" value ={user.miranda_Script_No}></input></h3>
+         <h3><input type="text" value ={user.true_Script}></input></h3>
+         <h3><input type="text" value ={user.false_Script}></input></h3>
          </div>
         );
       });
@@ -29,17 +32,17 @@ function App() {
   }    
 
   return( <div className="App">
-    {displayUsers}
+   {displayUsers} 
     <ReactPaginate
     previousLabel={"Previous"}
     nextLabel = {"Next"}
-    pageCount={pageCount}
+   pageCount={pageCount}
     onPageChange={changePage}
     containerClassName={"paginationBttns"}
     previousLinkClassName = {"previousBttn"}
     nextLinkClassName = {"nextBttn"}
     disabledClassName = {"paginationDisabled"}
-    activeClassName = {"paginationActive"}
+    activeClassName = {"paginationActive"} 
     />
     </div>
   );
