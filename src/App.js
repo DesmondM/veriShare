@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import {mirandaData} from './dataz';
+import {outcomes} from './phoneOutcome';
 import ReactPaginate from 'react-paginate';
 import './App.css';
 import {Miranda} from './Miranda';
@@ -15,8 +16,15 @@ function App() {
       .map((user)=>{
         return(
           <div className = "user">
-         <h3> <input type="text" value ={user.miranda_Name}></input></h3>
-
+         
+         <select>
+           <option selected disabled = "true">Select Oucome</option>
+          {
+          outcomes.map((result)=>(<option text={result.phoneOutcomeNo}>{result.phoneOutcome}</option>))
+          }
+         
+         </select>
+         <h3> <textarea  value ={user.script}></textarea></h3>
 
 
          <h3><input type="text" value ={user.miranda_Script_No}></input></h3>
