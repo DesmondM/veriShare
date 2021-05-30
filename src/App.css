@@ -88,3 +88,160 @@
     transform: rotate(360deg);
   }
 }
+
+/* Rectangle 460 */
+.topBar {
+  position: absolute;
+  width: 1366px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #4990e2 0%, #1872d9 100%);
+}
+
+.outerBorder {
+  /* Rectangle 1283 */
+
+  position: absolute;
+  width: 313px;
+  height: 638px;
+  left: 21px;
+  top: 68px;
+
+  /* Light Grey */
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+.subSection {
+  /* Rectangle 578 */
+
+  position: absolute;
+  width: 281px;
+  height: 249px;
+  left: 28px;
+  top: 137px;
+
+  /* White */
+  background: #ffffff;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.subSection2 {
+  /* Rectangle 509 */
+
+  position: relative;
+  width: 280px;
+  height: 288px;
+  left: 29px;
+  top: 398px;
+
+  /* White */
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.txBox {
+  /* Rectangle 1280 */
+
+  position: absolute;
+  width: 264px;
+  height: 29px;
+  left: 37px;
+  top: 261px;
+
+  background: rgba(73, 144, 226, 0.1);
+  border-radius: 4px;
+
+  /* Group 1043 */
+
+  position: absolute;
+  width: 145px;
+  height: 14px;
+  left: 146px;
+  top: 268px;
+
+  /* Group 841 */
+
+  position: absolute;
+  width: 12px;
+  height: 6px;
+  left: 279px;
+  top: 273px;
+
+  /* Vector */
+
+  position: absolute;
+  left: 20.42%;
+  right: 78.7%;
+  top: 35.55%;
+  bottom: 63.67%;
+
+  /* Blue */
+  border: 2px solid #4990e2;
+
+  /* +111 555 008 926 */
+
+  position: absolute;
+  width: 112px;
+  height: 14px;
+  left: 146px;
+  top: 268px;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* Blue */
+  color: #4990e2;
+}
+
+.rightParty {
+  /* Rectangle 1279 */
+
+  position: absolute;
+  width: 128px;
+  height: 35px;
+  left: 174px;
+  top: 643px;
+
+  /* Blue */
+  background: #4990e2;
+  border-radius: 8px;
+}
+
+.wrongParty {
+  /* Rectangle 1278 */
+
+  position: absolute;
+  width: 128px;
+  height: 35px;
+  left: 38px;
+  top: 643px;
+
+  background: rgba(73, 144, 226, 0.1);
+  border-radius: 8px;
+}
+
+.nxCase {
+  /* Next Case */
+
+  position: absolute;
+  width: 63px;
+  height: 17px;
+  left: 1190px;
+  top: 733px;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Blue */
+  color: #4990e2;
+}
